@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rebecca Yeung - Porfolio</title>
+    <link rel="stylesheet" href="public/css/landing.css" />
+  </head>
+
+  <body>
+
+    <!-- NAVBAR -->
+    <header class="site-header">
+        <div class="nav-left">
+            <a href="index.html">Rebecca Yeung</a>
+        </div>
+
+        <nav class="nav-right"> 
+            <a href="index.html#work">Work</a>
+            <a href="public/pages/about.html">About</a>
+            <a href="public/assets/resume.pdf">Resume</a>
+        </nav>
+    </header>
+
+     <!-- PAGE CONTENT WRAPPER -->
+    <main class="page-content">
+
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <p class="intro">Hi, I'm Rebecca!</p>
+
+        <h1>
+            UX designer and researcher, passionate about going 
+            <span class="highlight">beyond design</span> 
+            and into <span class="highlight">experience.</span>
+         </h1>
+
+        <p class="current-employment">
+          Currently @ <a href="https://www.secondsavour.ca/" target="_blank">Second Savour</a>
+        </p>
+      </section>
+
+      <!-- PROJECT SECTION -->
+      <section id="work">
+        <a href="public/pages/revisiondojo.html" class="project-link">
+          <div class="project-card">
+
+            <div class="project-info">
+              <div class="project-header">
+                <h2 class="project-title">RevisionDojo</h2>
+
+                <div class="project-tags">
+                  <div class="tag">UX Research</div>
+                  <div class="tag">Product Design</div>
+                </div>
+              </div>
+
+                <p class="project-description">
+                  Created a feature to help IB students surface the right content at the right time.
+                </p>
+
+            </div>
+
+            <div class="project-image">
+              <img
+                src="public/assets/searchbar-modal.png"
+                width="610"
+                height="370"
+                alt="Case Study: RevisionDojo"
+              />
+            </div>
+          </div>
+        </a>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="site-footer page-content">
+        <div class="footer-left">
+          <p class="footer-heading">Glad we crossed paths</p>
+          <p class="footer-subheading">Hope it left you with a bit of curiosity and inspiration</p>
+        </div>
+
+        <div class="footer-right">
+          <a href="https://linkedin.com/in/rebecca-yeung-" target="_blank">LinkedIn</a>
+          <a href="public/assets/resume.pdf" target="_blank">Resume</a>
+          <a href="mailto:rcy3@sfu.ca">Email</a>
+        </div>
+      </footer>
+
+    </main>
+  </body>
+</html>
+
+
+
+
+
+<!-- Sources 
+ - https://www.w3schools.com/cssref/pr_text_white-space.php
+ - https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto
+ - https://www.w3schools.com/cssref/pr_scroll-behavior.php
+ - https://www.w3schools.com/css/css3_gradients_radial.asp
+ - https://www.w3schools.com/tags/att_audio_autoplay.asp
+ - https://www.w3schools.com/tags/att_audio_muted.asp
+ - https://www.w3schools.com/cssref/pr_pos_clip.php
+
+aria-labelledby: asked chat gpt what aria-describeby does for a video
+answer it gave me: 
+- What it does:
+It links the video to additional descriptive text somewhere else on the page.
+A screen reader will read that description after announcing the video, giving blind or low-vision users more context.
+
+- When you use it:
+Use aria-describedby if the video needs:
+Extra context beyond the caption (e.g., what’s visually happening)
+Instructions (e.g., “Video has no sound; demonstrates hover effects”)
+A long description, but you don’t want it in the caption track
+-->
+
