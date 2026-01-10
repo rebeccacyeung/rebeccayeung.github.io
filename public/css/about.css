@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    color: black;
+    background-color: white;
+    background: white;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    max-width: 62.5rem;
+    margin: 8rem auto 4rem;
+    font-family: "Figtree", sans-serif;
+    color: black;
+    background-color: white;
+    line-height: 1.5;
+}
+
+/* ABOUT SECTION */
+
+.about-title h1 {
+    line-height: 2.5rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+    word-spacing: 1;
+}
+
+/* ABOUT SECTION */
+.about-section {
+    max-width: 62.5rem;
+    margin: 8rem auto 4rem;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 4rem;
+    width: 100%;
+    align-items: center;
+}
+
+.about-title h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #193CB8;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    line-height: 1.55;
+    margin-bottom: 1.5rem;
+    max-width: 38rem;
+}
+
+.about-photo {
+    margin-top: 6rem;
+    width: 100%;
+    max-width: 22rem;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+
+/* EXPERIENCE SECTION */
+.experience-section {
+    margin-top: 1rem;
+    max-width: 62.5rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-lable {
+    max-width: 62.5rem;
+    width: 100%;
+    margin: 6rem auto 1rem;   
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.experience-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.5rem 0;
+
+}
+
+.exp-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.exp-company {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.exp-role {
+    font-size: 1.1rem;
+    color: #A1A1A1;
+    margin: 0;
+}
+
+.exp-right {
+    font-size: 1.1rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+
+@media (max-width: 48rem) {
+
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .about-title h1 {
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+
+    .about-text {
+        font-size: 1.1rem;
+    }
+
+    .about-photo {
+        margin: 0 auto;
+        max-width: 18rem;
+    }
+
+    .experience-item {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .exp-right {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 30rem) {
+
+    .about-title h1 {
+        font-size: 1.6rem;
+    }
+
+    .about-text {
+        font-size: 1rem;
+    }
+
+    .about-photo {
+        max-width: 16rem;
+    }
+
+    .exp-company {
+        font-size: 1.1rem;
+    }
+
+    .exp-role,
+    .exp-right {
+        font-size: 0.95rem;
+    }
+}
